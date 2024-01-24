@@ -6,7 +6,7 @@
 
        pkg install git
 
-       git clone https://github.com/WIFI-HACK
+       git clone https://github.com/BjorkaTeam/WIFI-HACK
 
        ls
 
