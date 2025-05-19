@@ -6,7 +6,7 @@
 
        pkg install git
 
-       git clone https://github.com/BjorkaTeam/WIFI-HACK
+       git clone https://github.com/BjorkaTeam/IDN-DDOS-Tools
 
        ls
 
